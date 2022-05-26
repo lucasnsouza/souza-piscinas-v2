@@ -1,4 +1,5 @@
 import styles from "./Capa.module.css";
+import Estacoes from "./Estacoes";
 
 export default function Capa() {
     return (
@@ -11,8 +12,7 @@ export default function Capa() {
                 <strong>O seu lazer é o nosso trabalho</strong>
               </p>
               <p>
-                Trabalhamos para que você possa curtir sua piscina sem dor de
-                cabeça!
+                <Estacoes/>
               </p>
             </div>
           </div>
