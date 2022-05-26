@@ -1,35 +1,26 @@
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import Container from "react-bootstrap/Container";
+import Header from "../Header";
 import styles from "./Home.module.css";
 
 export default function Home() {
   return (
-      <Navbar className={styles.header} bg="dark" variant="dark" expand="lg">
-        <Container>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Link</Nav.Link>
-              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+    <main className="" id={styles.main}>
+      <Header />
+      <div id={styles.landing}>
+        <div className="d-flex position-relative" id={styles.capa}>
+          <div className="position-absolute" id={styles.conteudo}>
+            <div id={styles.banner}>
+              <h1 id={styles.texto}>SOUZA PISCINAS</h1>
+              <p>
+                <strong>O seu lazer é o nosso trabalho</strong>
+              </p>
+              <p>
+                Trabalhamos para que você possa curtir sua piscina sem dor de
+                cabeça!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   );
 }
