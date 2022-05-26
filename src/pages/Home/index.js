@@ -4,9 +4,9 @@ import styles from "./Home.module.css";
 
 export default function Home() {
   return (
-    <main className="" id={styles.main}>
-      <Header />
-      <Capa />
+    <main id={styles.main}>
+      <Header/>
+      <Capa/>
     </main>
   );
 }

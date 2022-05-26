@@ -5,7 +5,7 @@ export default function Header() {
     <nav className="navbar navbar-dark sticky-top navbar-expand-lg" id={styles.navBar}>
     <div className="container-fluid">
       <a className="navbar-brand text-white" href="#">
-      <i class="fa-solid fa-water-ladder fa-xl"></i> 
+      <i className="fa-solid fa-water-ladder fa-xl"></i> 
       <span> souza piscinas</span>
       </a>
       <button
