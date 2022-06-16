@@ -2,137 +2,63 @@
 export function mensagemDaEstacao() {
   //pegar estações do ano com javascript
   const data = new Date();
+  let dia = data.getDate();
   let mes = new Intl.DateTimeFormat("pt-br", { month: "long" }).format(data);
-
-  const mesesDoAno = {
-    janeiro: {
-      dias: 31,
-      estacaoDoAno: "Verão",
-    },
-    fevereiro: {
-      dias: "",
-      estacaoDoAno: "Verão",
-      get descobrirDiasFevereiro() {
-        let ano = new Date().getFullYear();
-        if (ano % 4 == 0 && (ano % 100 != 0 || ano % 400 == 0)) {
-          return (this.dias = 29);
-        } else {
-          return (this.dias = 28);
-        }
-      },
-    },
-    marco: {
-      dias: 31,
-      estacaoDoAno: "",
-      get estacaoMarco() {
-        let dia = data.getDate();
-        if (dia >= 20) {
-          return (this.estacaoDoAno = "Outono");
-        } else {
-          return "Verão";
-        }
-      },
-    },
-    abril: {
-      dias: 30,
-      estacaoDoAno: "Outono",
-    },
-    maio: {
-      dias: 31,
-      estacaoDoAno: "Outono",
-    },
-    junho: {
-      dias: 30,
-      estacaoDoAno: "",
-      get estacaoJunho() {
-        let dia = data.getDate();
-        if (dia >= 20) {
-          return (this.estacaoDoAno = "Inverno");
-        } else {
-          return (this.estacaoDoAno = "Outono");
-        }
-      },
-    },
-    julho: {
-      dias: 31,
-      estacaoDoAno: "Inverno",
-    },
-    agosto: {
-      dias: 31,
-      estacaoDoAno: "Inverno",
-    },
-    setembro: {
-      dias: 30,
-      estacaoDoAno: "",
-      get estacaoSetembro() {
-        let dia = data.getDate();
-        if (dia >= 22) {
-          return (this.estacaoDoAno = "Primavera");
-        } else {
-          return (this.estacaoDoAno = "Inverno");
-        }
-      },
-    },
-    outubro: {
-      dias: 31,
-      estacaoDoAno: "Primavera",
-    },
-    novembro: {
-      dias: 31,
-      estacaoDoAno: "Primavera",
-    },
-    dezembro: {
-      dias: 31,
-      estacaoDoAno: "",
-      get estacaoDezembro() {
-        let dia = data.getDate();
-        if (dia >= 21) {
-          return (this.estacaoDoAno = "Verão");
-        } else {
-          return (this.estacaoDoAno = "Primavera");
-        }
-      },
-    },
-  };
 
   //pega estação do ano usando a variável de referência mes
   let estacaoDoAno = "";
   switch (mes) {
     case "janeiro":
-      estacaoDoAno = mesesDoAno.janeiro.estacaoDoAno;
+      estacaoDoAno = "Verão"
       break;
     case "fevreiro":
-      estacaoDoAno = mesesDoAno.fevereiro.estacaoDoAno;
+      estacaoDoAno = "Verão";
       break;
     case "março":
-      estacaoDoAno = mesesDoAno.marco.estacaoMarco;
+      if (dia < 21) {
+        estacaoDoAno = "Verão";
+        break
+      }
+      estacaoDoAno = "Outono";
       break;
     case "abril":
-      estacaoDoAno = mesesDoAno.abril.estacaoDoAno;
+      estacaoDoAno = "Outono";
       break;
     case "maio":
-      estacaoDoAno = mesesDoAno.maio.estacaoDoAno;
+      estacaoDoAno = "Outono";
       break;
     case "junho":
-      estacaoDoAno = mesesDoAno.junho.estacaoJunho;
+      if (dia < 21) {
+        estacaoDoAno = "Outono";
+        break;
+      }
+      estacaoDoAno = "Inverno";
       break;
     case "julho":
-      estacaoDoAno = mesesDoAno.julho.estacaoJunho;
+      estacaoDoAno = "Inverno";
       break;
     case "agosto":
-      estacaoDoAno = mesesDoAno.agosto.estacaoDoAno;
+      estacaoDoAno = "Inverno";
       break;
     case "setembro":
-      estacaoDoAno = mesesDoAno.setembro.estacaoSetembro;
+      if (dia < 22) {
+        estacaoDoAno = "Inverno";
+        break;
+      }
+      estacaoDoAno = "Primavera";
       break;
     case "outubro":
-      estacaoDoAno = mesesDoAno.outubro.estacaoDoAno;
+      estacaoDoAno = "Primavera";
       break;
     case "novembro":
-      estacaoDoAno = mesesDoAno.novembro.estacaoJunho;
+      estacaoDoAno = "Primavera";
       break;
     case "dezembro":
-      estacaoDoAno = mesesDoAno.dezembro.estacaoDezembro;
+      if(dia < 21) {
+        estacaoDoAno = "Primavera";
+        break;
+      }
+      estacaoDoAno = "Verão";
       break;
     default:
       break;
