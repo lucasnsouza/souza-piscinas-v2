@@ -1,6 +1,6 @@
 .conteudo {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
 }
@@ -16,18 +16,44 @@
 
 .hr {
     width: 20%;
-    border: 5px solid #02056B;
+    border: 5px solid #1D4567;
     border-radius: 5px;
 }
 
 .slides {
-    padding: 50px;
-    background-color: #02056B;
-    width: 50%;
+    padding: 10px;
+    background-color: #1D4567;
+    /*width: 50%;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.foto {
+    max-height: 320px;
+}
+
+.controles {
+    position: absolute;
+    bottom: 10px;
+    background-color: #1D4567;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 @media (max-width: 991px) {
     .conteudo {
         flex-direction: column
+    }
+
+    .texto {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .foto {
+        max-height: 250px;
     }
 }
