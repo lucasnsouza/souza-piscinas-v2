@@ -28,16 +28,13 @@ export default function Header() {
           </li>
           <li className="nav-item">
             <a className="nav-link text-white" href="#">
-              features
+              serviços
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link text-white" href="#">
-              pricing
+              contato
             </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link text-white">disabled</a>
           </li>
         </ul>
       </div>

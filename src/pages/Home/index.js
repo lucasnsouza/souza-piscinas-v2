@@ -1,5 +1,6 @@
 import Header from "../Header";
 import Capa from "./Capa";
+import Conteudo from "./Conteudo";
 import styles from "./Home.module.css";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <main id={styles.main}>
       <Header/>
       <Capa/>
+      <Conteudo/>
     </main>
   );
 }
