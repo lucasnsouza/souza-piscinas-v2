@@ -1,3 +1,33 @@
 .conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.texto {
     padding: 50px;
+    width: 50%;
+}
+
+.apresentacao, .guia {
+    padding: 1rem;
+}
+
+.hr {
+    width: 20%;
+    border: 5px solid #02056B;
+    border-radius: 5px;
+}
+
+.slides {
+    padding: 50px;
+    background-color: #02056B;
+    width: 50%;
+}
+
+@media (max-width: 991px) {
+    .conteudo {
+        flex-direction: column
+    }
 }
