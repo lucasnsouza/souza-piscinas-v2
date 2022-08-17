@@ -1,0 +1,29 @@
+.navBar {
+    background-color: #03355e !important;
+    display: flex;
+}
+
+.menu {
+    margin: 1rem;
+    display: flex;
+}
+
+.brand {
+    color: white;
+    text-decoration: none;
+}
+
+.lista {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.item {
+    padding: 0 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}

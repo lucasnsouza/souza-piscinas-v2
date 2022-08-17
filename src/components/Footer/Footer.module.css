@@ -1,0 +1,23 @@
+.footer {
+    padding: 20px;
+    background-color: #03355e !important;
+    color: white;
+
+}
+
+.cartao {
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.lista {
+    margin-left: 2rem;
+    list-style: none;
+}
+
+.developer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

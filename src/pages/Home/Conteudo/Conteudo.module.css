@@ -65,7 +65,16 @@
         justify-content: center;
     }
 
+    .slides {
+        padding: 0;
+        border-radius: 0px;
+    }
+
     .foto {
-        max-height: 250px;
+        max-height: 220px;
+    }
+
+    .controles {
+        width: 100%;
     }
 }
