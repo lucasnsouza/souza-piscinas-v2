@@ -16,14 +16,17 @@
 
 .hr {
     width: 20%;
-    border: 5px solid #1D4567;
-    border-radius: 5px;
+    border: 10px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #03355E, #0784EB);
+    height: 5px;
+    opacity: 1;
 }
 
 .slides {
     padding: 10px;
-    background-color: #1D4567;
-    /*width: 50%;*/
+    background-color: #1D4567 !important;
+    border-radius: 10px 0 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,9 +41,14 @@
     position: absolute;
     bottom: 10px;
     background-color: #1D4567;
-    width: 100%;
+    width: 96.6%;
+    padding: 5px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background-color: rgba(7, 132, 235, 0.363);  
+    backdrop-filter: blur(5px);
+    color: black;
 }
 
 @media (max-width: 991px) {
@@ -51,6 +59,10 @@
     .texto {
         padding: 20px;
         width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .foto {

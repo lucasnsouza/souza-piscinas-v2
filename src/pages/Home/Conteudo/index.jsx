@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import fotos from "../../../data/fotos.json";
 import styles from "./Conteudo.module.css";
+import { Button } from "react-bootstrap";
 
 export default function Conteudo() {
   let [slide, setSlide] = useState(fotos[0]);
@@ -43,9 +44,10 @@ export default function Conteudo() {
       <div className={styles.slides}>
         <img className={styles.foto} src={slide.path} alt={slide.description} />
         <div className={styles.controles}>
-          <button onClick={() => setContador(contador - 1)}>&#10094;</button>
-          <span>{slide.title}</span>
-          <button onClick={() => setContador(contador + 1)}>&#10095;</button>
+          <Button variant="outline-dark" onClick={() => setContador(contador - 1)}>&#10094;</Button>
+          {/* <button onClick={() => setContador(contador - 1)}>&#10094;</button> */}
+          <span><strong>{slide.title}</strong></span>
+          <Button variant="outline-dark" onClick={() => setContador(contador + 1)}>&#10095;</Button>
         </div>
       </div>
     </div>
