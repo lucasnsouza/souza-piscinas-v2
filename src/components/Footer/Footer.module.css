@@ -16,6 +16,15 @@
     list-style: none;
 }
 
+.item {
+    display: flex;
+}
+
+.svg {
+    margin-right: 5px;
+    color: white;
+}
+
 .developer {
     display: flex;
     justify-content: center;
