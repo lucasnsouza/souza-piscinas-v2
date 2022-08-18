@@ -9,7 +9,7 @@ export default function Conteudo() {
       <div className={styles.texto}>
         <div className={styles.apresentacao}>
           <h2 className={styles.titulo}>
-            <strong>Guia</strong>
+            <strong>Guia do site</strong>
           </h2>
           <hr className={styles.hr} />
           <p>

@@ -7,15 +7,21 @@
 
 .texto {
     padding: 50px;
-    width: 50%;
 }
 
 .apresentacao, .guia {
     padding: 1rem;
 }
 
+.guia {
+    padding-top: 0;
+}
+
+.slider {
+    padding: 50px;
+}
+
 .hr {
-    width: 20%;
     border: 10px;
     border-radius: 8px;
     background: linear-gradient(to right, #03355E, #0784EB);
@@ -29,15 +35,26 @@
     }
 
     .texto {
-        padding: 20px;
-        width: 100%;
+        padding: 10px;
         align-items: center;
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         justify-content: center;
     }
 
+    .apresentacao {
+        padding: 1rem 3rem;
+    }
+
+    .guia {
+        padding-top: 0;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 1rem;
+    }
+
     .slider {
-        margin-bottom: 10px;
+        padding: 10px;
     }
 }

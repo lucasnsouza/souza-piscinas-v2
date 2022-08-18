@@ -16,7 +16,7 @@
     position: absolute;
     bottom: 10px;
     background-color: #1D4567;
-    width: 96.6%;
+    width: 95.4%;
     padding: 5px;
     display: flex;
     justify-content: space-around;
@@ -37,7 +37,7 @@
     }
 
     .controles {
-        width: 100%;
+        width: 97%;
         bottom: 0;
     }
 }
