@@ -36,4 +36,8 @@
         flex-direction: column;
         justify-content: center;
     }
+
+    .slider {
+        margin-bottom: 10px;
+    }
 }

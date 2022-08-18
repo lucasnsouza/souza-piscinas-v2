@@ -26,7 +26,9 @@ export default function Conteudo() {
           </ul>
         </div>
       </div>
-      <Slider fotos={fotos}/>
+      <div className={styles.slider}>
+        <Slider fotos={fotos}/>
+      </div>
     </div>
   );
 }

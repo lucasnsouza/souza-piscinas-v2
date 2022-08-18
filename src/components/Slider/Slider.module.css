@@ -41,3 +41,9 @@
         bottom: 0;
     }
 }
+
+@media (max-width: 400px) {
+    .foto {
+        max-height: 190px;
+    }
+}
