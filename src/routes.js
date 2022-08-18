@@ -8,7 +8,7 @@ export default function AppRouter() {
         <Router>
             <Header/>
             <Routes>
-                <Route path='/' element={<Home/>}/>
+                <Route path='/souza-piscinas-v2' element={<Home/>}/>
             </Routes>
             <Footer/>
         </Router>

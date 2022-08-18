@@ -22,7 +22,7 @@ export default function Slider(props) {
 
   return (
     <div className={styles.slides}>
-      <img className={styles.foto} src={slide.path} alt={slide.description} />
+      <img className={styles.foto} src={process.env.PUBLIC_URL + slide.path} alt={slide.description} />
       <div className={styles.controles}>
         <SliderButton onclick={() => setContador(contador - 1)} function={'prev'}/>
         <span className={styles.texto}>
