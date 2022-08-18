@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import styles from "./Slider.module.css";
-import { Button } from "react-bootstrap";
+import SliderButton from "../Buttons/SliderButton";
 
 export default function Slider(props) {
   //esperamos receber uma props de fotos
@@ -24,21 +24,11 @@ export default function Slider(props) {
     <div className={styles.slides}>
       <img className={styles.foto} src={slide.path} alt={slide.description} />
       <div className={styles.controles}>
-        <Button
-          variant='outline-dark'
-          onClick={() => setContador(contador - 1)}
-        >
-          &#10094;
-        </Button>
-        <span>
+        <SliderButton onclick={() => setContador(contador - 1)} function={'prev'}/>
+        <span className={styles.texto}>
           <strong>{slide.title}</strong>
         </span>
-        <Button
-          variant='outline-dark'
-          onClick={() => setContador(contador + 1)}
-        >
-          &#10095;
-        </Button>
+        <SliderButton onclick={() => setContador(contador + 1)} function={'next'}/>
       </div>
     </div>
   );
