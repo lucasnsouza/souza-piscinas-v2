@@ -18,11 +18,11 @@
 
 .item {
     display: flex;
+    line-height: 1.5rem;
 }
 
-.svg {
+.icons {
     margin-right: 5px;
-    color: white;
 }
 
 .developer {
