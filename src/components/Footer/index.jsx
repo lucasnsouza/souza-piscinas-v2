@@ -19,13 +19,13 @@ export default function Footer() {
           </li>
           <li className={styles.item}>
             <span className={styles.icons}>
-              <i class='fa-brands fa-whatsapp'></i>
+              <i className='fa-brands fa-whatsapp'></i>
             </span>
             <div>(14) 91122-3344</div>
           </li>
           <li className={styles.item}>
             <span className={styles.icons}>
-              <i class='fa-regular fa-clock'></i>
+              <i className='fa-regular fa-clock'></i>
             </span>
             <div>atendemos de qua a sex das 08:00 às 17:00</div>
           </li>
