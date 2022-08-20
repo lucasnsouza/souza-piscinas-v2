@@ -19,7 +19,7 @@ export default function Conteudo() {
         </div>
         <div className={styles.guia}>
           <p>O que você procura?</p>
-          <ul>
+          <ul className={styles.lista}>
             <li>Manutenção regular</li>
             <li>Manutenção peródica</li>
             <li>Serviços extras</li>
