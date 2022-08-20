@@ -6,8 +6,7 @@ export default function Footer() {
   return (
     <div className={styles.footer}>
       <div className={styles.cartao}>
-        <Brand />
-        <ul className={styles.lista}>
+      <ul className={styles.lista}>
           <li className={styles.item}>
             <strong>contato</strong>
           </li>
@@ -30,6 +29,7 @@ export default function Footer() {
             <div>atendemos de qua a sex das 08:00 às 17:00</div>
           </li>
         </ul>
+        <Brand />
       </div>
       <hr />
       <div className={styles.developer}>

@@ -7,12 +7,13 @@
 
 .cartao {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    margin-left: 5rem;
 }
 
 .lista {
-    margin-left: 2rem;
+    margin-left: 0px;
     list-style: none;
 }
 
@@ -29,4 +30,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-widht: 991px) {
+    .cartao {
+        margin-left: 0px;
+        background-color: yellow;
+    }
+    
+    .lista {
+        margin-left: 0px;
+    }
 }
