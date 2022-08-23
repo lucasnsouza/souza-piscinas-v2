@@ -2,28 +2,32 @@
     padding: 20px;
     background-color: #03355e !important;
     color: white;
-
 }
 
 .cartao {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .lista {
     margin-left: 0px;
     list-style: none;
+    font-size: medium;
 }
 
 .item {
     display: flex;
-    line-height: 1.5rem;
 }
 
 .icons {
     margin-right: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 .developer {
@@ -32,13 +36,13 @@
     align-items: center;
 }
 
-@media screen and (max-widht: 991px) {
+@media (max-width: 991px) {
     .cartao {
-        margin-left: 0px;
-        background-color: yellow;
+        flex-direction: column;
+        align-items: flex-start;
     }
-    
+
     .lista {
-        margin-left: 0px;
+        margin: 16px 0;
     }
 }

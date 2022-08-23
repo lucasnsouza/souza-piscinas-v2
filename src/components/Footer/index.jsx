@@ -5,7 +5,8 @@ export default function Footer() {
   const anoAtual = new Date().getFullYear();
   return (
     <div className={styles.footer}>
-      <div className={styles.cartao}>
+      <div className={styles.cartao}>  
+      <Brand />
       <ul className={styles.lista}>
           <li className={styles.item}>
             <strong>contato</strong>
@@ -14,13 +15,13 @@ export default function Footer() {
             <span className={styles.icons}>
               <i className='fa-regular fa-envelope'></i>
             </span>
-            <div>email@email.com</div>
+            <a href="mailto:souza@souzapiscinas.com.br">souza@souzapiscinas.com.br</a>
           </li>
           <li className={styles.item}>
             <span className={styles.icons}>
               <i className='fa-brands fa-whatsapp'></i>
             </span>
-            <div>(14) 91122-3344</div>
+            <a href="tel:+5514997681293">(14) 99768-1293</a>
           </li>
           <li className={styles.item}>
             <span className={styles.icons}>
@@ -29,11 +30,10 @@ export default function Footer() {
             <div>atendemos de qua a sex das 08:00 às 17:00</div>
           </li>
         </ul>
-        <Brand />
       </div>
       <hr />
       <div className={styles.developer}>
-        <span>criado por lucas souza | 2021-{anoAtual}</span>
+        <span>criado por <a href="https://www.linkedin.com/in/lucasnsouza" target="_blank" rel="noreferrer">lucas souza</a> | 2021-{anoAtual}</span>
       </div>
     </div>
   );
