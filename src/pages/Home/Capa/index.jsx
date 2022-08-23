@@ -7,10 +7,8 @@ export default function Capa() {
       <div className={styles.capa}>
         <div className={styles.conteudo}>
           <div className={styles.banner}>
-            <h1 className={styles.texto}>SOUZA PISCINAS</h1>
-            <p>
-              <strong>O seu lazer é o nosso trabalho</strong>
-            </p>
+            <h1 className={styles.texto}>O seu lazer é o nosso trabalho</h1>
+
             <Estacoes />
           </div>
         </div>
