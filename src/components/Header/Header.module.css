@@ -1,10 +1,9 @@
 .navBar {
     background-color: #03355e !important;
-    display: flex;
 }
 
 .menu {
-    margin: 1rem;
+    padding: 1rem;
     display: flex;
 }
 
@@ -29,6 +28,10 @@
     cursor: pointer;
 }
 
+.item:first-child {
+    margin-left: 1rem;
+}
+
 .item:hover {
     transform: scale(1.1, 1.1);
 }
@@ -50,15 +53,26 @@
     border: none;
     position: absolute;
     right: 15px;
-    top: 7px;
     padding: 5px;
     transition: .4s ease;
 }
 
 @media screen and (max-width: 500px){
+    .menu {
+        flex-direction: column;
+    }
+
+    .divBrandBtn {
+        display: flex;
+    }
+
     .lista {
         flex-direction: column;
         height: auto;
+    }
+
+    .item:first-child {
+        margin-left: 0;
     }
 
     .item:nth-child(1){

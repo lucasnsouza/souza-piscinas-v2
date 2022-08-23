@@ -46,22 +46,26 @@ export default function Header() {
   return (
     <nav className={styles.navBar}>
       <div className={styles.menu}>
-        <Link to='/souza-piscinas-v2' className={styles.brand}>
-          <Brand />
-        </Link>
-        {(toggleMenu || tamanhoDaTela > 500) && <ul className={styles.lista}>
-          {/* exibe a ul do menu se o toggle for true ou a tela for larga o suficiente */}
-          {rotas.map((rota, index) => (
-            <li key={index} className={styles.item}>
-              <Link to={rota.to} className={styles.link}>
-                {rota.label}
-              </Link>
-            </li>
-          ))}
-        </ul>}
-        <button onClick={btnNavToggle} className={styles.btnNav}>
-          <i className='fa-solid fa-bars fa-xl'></i>
-        </button>
+        <div className={styles.divBrandBtn}>
+          <Link to='/souza-piscinas-v2' className={styles.brand}>
+            <Brand />
+          </Link>
+          <button onClick={btnNavToggle} className={styles.btnNav}>
+            <i className='fa-solid fa-bars fa-xl'></i>
+          </button>
+        </div>
+          {(toggleMenu || tamanhoDaTela > 500) && (
+            <ul className={styles.lista}>
+              {/* exibe a ul do menu se o toggle for true ou a tela for larga o suficiente */}
+              {rotas.map((rota, index) => (
+                <li key={index} className={styles.item}>
+                  <Link to={rota.to} className={styles.link}>
+                    {rota.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          )}
       </div>
     </nav>
   );
