@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/souza-piscinas-v2/static/css/main.dc2a3e05.css",
-    "main.js": "/souza-piscinas-v2/static/js/main.228fae36.js",
+    "main.css": "/souza-piscinas-v2/static/css/main.104f1d39.css",
+    "main.js": "/souza-piscinas-v2/static/js/main.95817b74.js",
     "static/media/capa.svg": "/souza-piscinas-v2/static/media/capa.acba0bd0c252df1a9747.svg",
     "index.html": "/souza-piscinas-v2/index.html",
-    "main.dc2a3e05.css.map": "/souza-piscinas-v2/static/css/main.dc2a3e05.css.map",
-    "main.228fae36.js.map": "/souza-piscinas-v2/static/js/main.228fae36.js.map"
+    "main.104f1d39.css.map": "/souza-piscinas-v2/static/css/main.104f1d39.css.map",
+    "main.95817b74.js.map": "/souza-piscinas-v2/static/js/main.95817b74.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc2a3e05.css",
-    "static/js/main.228fae36.js"
+    "static/css/main.104f1d39.css",
+    "static/js/main.95817b74.js"
   ]
 }
