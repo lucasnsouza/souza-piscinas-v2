@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "route": "regular",
         "title": "Manutenção Regular",
         "resume": "Serviços de tratamento e limpeza básicos para manter sua piscina em ordem. Em geral, esses serviços são realizados toda semana de acordo com os requisitos de cada piscina.",
         "services": [
@@ -43,6 +44,7 @@
     },
     {
         "id": 2,
+        "route": "extra",
         "title": "Manutenção extra",
         "resume": "Periodicamente a água da piscina pode precisar de um tratamento de choque, a areia do filtro precisa ser renovada ou pode ser necessária a troca de peças do motor ou filtro.",
         "services": [
@@ -85,6 +87,7 @@
     },
     {
         "id": 3,
+        "route": "produtos",
         "title": "Produtos e Equipamentos",
         "resume": "Veja um guia básico com fotos e o objetivo dos principais produtos e equipamentos vendidos para limpeza de piscinas. Esse guia pode ajudar você na hora de comprar o material para limpeza ou mesmo para conhecer os produtos que seu piscineiro usa.",
         "services": [
