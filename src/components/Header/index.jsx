@@ -7,11 +7,11 @@ export default function Header() {
   const rotas = [
     {
       label: "início",
-      to: "/",
+      to: "/souza-piscinas-v2",
     },
     {
       label: "serviços",
-      to: "/serviços",
+      to: "/souza-piscinas-v2/servicos",
     },
     {
       label: "sobre nós",

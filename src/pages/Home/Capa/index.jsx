@@ -8,7 +8,6 @@ export default function Capa() {
         <div className={styles.conteudo}>
           <div className={styles.banner}>
             <h1 className={styles.texto}>O seu lazer é o nosso trabalho</h1>
-
             <Estacoes />
           </div>
         </div>
