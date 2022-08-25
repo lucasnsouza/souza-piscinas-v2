@@ -29,7 +29,7 @@
 
 .lista {
     margin-top: 8px;
-    list-style: none;
+    list-style: disc;
 }
 
 .itemGuia {
@@ -39,6 +39,7 @@
 .itemGuia:first-child {
     margin-left: 0;
     margin-bottom: 3px;
+    list-style: none;
 }
 
 @media (max-width: 991px) {
