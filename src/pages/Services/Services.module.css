@@ -1,9 +1,9 @@
 .capa {
-    background-image: url('../../assets/funcoes.png');
+    background-image: url('../../assets/capa-servicos.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 90vh;
-    background-position: inherit;
+    background-position: center;
     display: flex;
     position: relative;
 }
@@ -33,7 +33,7 @@
 }
 
 .itemGuia {
-    margin-left: 5px;
+    margin-left: 20px;
 }
 
 .itemGuia:first-child {
@@ -44,8 +44,7 @@
 
 @media (max-width: 991px) {
     .capa {
-        background-image: url('../../assets/funcoes-p.png');
-        min-height: 40vh;
+        min-height: 70vh;
     }
     .conteudo {
         border-radius: 0px;
@@ -55,7 +54,6 @@
 
 @media (max-width: 600px) {
     .capa {
-        background-image: url('../../assets/funcoes-m.png');
         align-items: center;
         min-height: 250px;
     }
@@ -63,6 +61,7 @@
         padding: 10px;
         bottom: auto;
         right: auto;
+        margin: 10px;
     }
     .lista {
         display: none;

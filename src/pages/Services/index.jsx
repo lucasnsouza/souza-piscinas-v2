@@ -2,6 +2,7 @@ import ServicesDescription from "../../components/ServicesDescription";
 import styles from "./Services.module.css";
 import listaServicos from "../../data/description.json";
 import { HashLink } from "react-router-hash-link";
+import capa from '../../assets/capa-servicos.jpeg';
 
 export default function Services() {
   return (

@@ -70,3 +70,10 @@
         margin-bottom: 30px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .section {
+        padding-top: 30px;
+    }
+    
+}
