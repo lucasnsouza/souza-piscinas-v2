@@ -59,7 +59,7 @@
             {
                 "id": 2.3,
                 "service": "Peças",
-                "description": "Para a manutenção correta você vai precisar de um rodo de aspiração, uma mangueira de aspiração, uma peneira e uma escova. O seu piscineiro também pode recomendar a compra de um timer, que permite configurar horários automáticos para filtragem da água. Em sítios e chácaras pode ser necessário uma capa, ou uma rede de proteção em casas com crianças pequenas."
+                "description": "As vezes o motor ou filtro da piscina podem apresentar problemas e um técnico precisará ser consultado para manutenção ou troca de peças."
             }
         ],
         "photos": [
@@ -107,6 +107,11 @@
                 "id": 3.4,
                 "service": "Floculante",
                 "description": "Assim como sulfato de alumínio, o floculante tem como objetivo decantar a sujeira da piscina para uma aspiração eficaz. Diferente do sulfato de alumínio, o floculante não desequilibra o pH da água e por ser líquido contribui para a filtragem."
+            },
+            {
+                "id": 3.5,
+                "service": "Equipamentos",
+                "description": "Para a manutenção correta você vai precisar de um rodo de aspiração, uma mangueira de aspiração, uma peneira e uma escova. O seu piscineiro também pode recomendar a compra de um timer, que permite configurar horários automáticos para filtragem da água. Em sítios e chácaras pode ser necessário uma capa, ou uma rede de proteção em casas com crianças pequenas."
             }
         ],
         "photos": [

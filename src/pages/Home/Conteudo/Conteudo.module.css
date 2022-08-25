@@ -18,6 +18,12 @@
 .guia {
     padding-top: 0;
 }
+.titulo {
+    color: #253858;
+    font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 5px;
+}
 
 .lista {
     margin-left: 2rem;
