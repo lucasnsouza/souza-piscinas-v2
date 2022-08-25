@@ -15,7 +15,7 @@ export default function Header() {
     },
     {
       label: "sobre nós",
-      to: "/sobre",
+      to: "/souza-piscinas-v2/sobre",
     },
   ];
 

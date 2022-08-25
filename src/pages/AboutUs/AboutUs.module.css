@@ -1,0 +1,66 @@
+.sobre {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.conteudo {
+    padding: 80px;
+}
+
+.capa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    color: #253858;
+    font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 5px;
+}
+
+.hr {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 10px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #03355E, #0784EB);
+    height: 5px;
+    opacity: 1;
+}
+
+.listaSobre {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.listaSobre li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #253858; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+.capaSobre {
+    min-height: 550px;
+}
+
+@media screen and (max-width: 991px) {
+    .sobre {
+        flex-direction: column;
+    }
+
+    .conteudo {
+        padding: 50px;
+    }
+
+    .capa {
+        display: none;
+    }
+}
