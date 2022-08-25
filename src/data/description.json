@@ -1,0 +1,127 @@
+[
+    {
+        "id": 1,
+        "title": "Manutenção Regular",
+        "resume": "Serviços de tratamento e limpeza básicos para manter sua piscina em ordem. Em geral, esses serviços são realizados toda semana de acordo com os requisitos de cada piscina.",
+        "services": [
+            {
+                "id": 1.1,
+                "service": "Aspiração",
+                "description": "Semanalmente o piscineiro vai aspirar a sujeira decantada no fundo da piscina. Após a aspiração pode ser necessário usar a peneira para remover folhas ou pedras."
+            },
+            {
+                "id": 1.2,
+                "service": "Limpeza de bordas",
+                "description": "As bordas podem ficar manchadas pelo suor ou protetor solar. Quando necessário o piscineiro pode esfregar as bordas."
+            },
+            {
+                "id": 1.3,
+                "service": "Controle da água",
+                "description": "De acordo com os parâmetros da piscina o profissional vai usar os produtos necessários para manter a pureza da água. Isso vai fazer a sujeira decantar, facilitando a limpeza e evitando desperdício de água."
+            }
+        ],
+        "photos": [
+            {
+                "id": 1,
+                "path": "/assets/images/servicos/aspirando.png",
+                "description": "apirando piscina",
+                "title": "Aspiração"
+            },
+            {
+                "id": 2,
+                "path": "/assets/images/servicos/limpeza-bordas.png",
+                "description": "bordas da piscina",
+                "title": "Limpeza de Bordas"
+            },
+            {
+                "id": 3,
+                "path": "/assets/images/servicos/cristal.png",
+                "description": "água cristalina",
+                "title": "Controle da água"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Manutenção extra",
+        "resume": "Periodicamente a água da piscina pode precisar de um tratamento de choque, a areia do filtro precisa ser renovada ou pode ser necessária a troca de peças do motor ou filtro.",
+        "services": [
+            {
+                "id": 2.1,
+                "service": "Troca de areia",
+                "description": "As piscinas possuem um filtro-de-areia que permite a aspiração da sujeira sem jogar água fora, bem como a filtração da água durante o uso. Recomenda-se a troca da areia em média a cada 2 anos. Fique atento se o retorno da piscina começa a devolver sujeira ou pergunte ao seu piscineiro."
+            },
+            {
+                "id": 2.2,
+                "service": "Tratamento de choque",
+                "description": "O uso excessivo da piscina em um curto período de tempo pode desregular os parâmetros da água, nesse caso a piscina pode ficar embaçada ou até mesmo verde. Nessas situações o seu piscineiro pode precisar de alguns produtos específicos ou até mesmo uma quantidade maior deles. Com o padrão da água reestabelecido a limpeza regular mantém a pisicna normalmente."
+            },
+            {
+                "id": 2.3,
+                "service": "Peças",
+                "description": "Para a manutenção correta você vai precisar de um rodo de aspiração, uma mangueira de aspiração, uma peneira e uma escova. O seu piscineiro também pode recomendar a compra de um timer, que permite configurar horários automáticos para filtragem da água. Em sítios e chácaras pode ser necessário uma capa, ou uma rede de proteção em casas com crianças pequenas."
+            }
+        ],
+        "photos": [
+            {
+                "id": 1,
+                "path": "/assets/images/servicos/areia.png",
+                "description": "filtro aberto",
+                "title": "Filtro de areia"
+            },
+            {
+                "id": 2,
+                "path": "/assets/images/servicos/choque.png",
+                "description": "água turva e verde",
+                "title": "Tratamento de choque"
+            },
+            {
+                "id": 3,
+                "path": "/assets/images/filtro.png",
+                "description": "peças do filtro",
+                "title": "Peças"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Produtos e Equipamentos",
+        "resume": "Veja um guia básico com fotos e o objetivo dos principais produtos e equipamentos vendidos para limpeza de piscinas. Esse guia pode ajudar você na hora de comprar o material para limpeza ou mesmo para conhecer os produtos que seu piscineiro usa.",
+        "services": [
+            {
+                "id": 3.1,
+                "service": "Cloro para piscina",
+                "description": "O cloro é o produto mais conhecido e utilizado para sanitização da piscina. Com a dosagem correta o cloro mantém a água da piscina limpa de micro-organismos, como algas e patógenos. É um produto fundamental para manter a água cristalina e segura."
+            },
+            {
+                "id": 3.2,
+                "service": "Barrilha",
+                "description": "De forma simples a barrilha (carbonato de cálcio) é utilizada para elevar o pH da água. Águas com pH baixo podem causar irritação na pele e nos olhos, ou até mesmo estragar o material da piscina. O uso correto da barrilha (carbonato de cálcio) ajuda a equilibrar o pH da água tornando o lazer mais seguro."
+            },
+            {
+                "id": 3.3,
+                "service": "Sulfato de alumínio",
+                "description": "O sulfato de alumínio é um decantandor, ou seja, vai agregar a sujeira da água e assentar no fundo da piscina. Como efeito negativo o sulfato de alumínio desregula o pH da água e se não for aspirado na função esgoto pode saturar o filtro de areia. Por isso seu uso só recomendado em último caso a ser feito por um profissional."
+            },
+            {
+                "id": 3.4,
+                "service": "Floculante",
+                "description": "Assim como sulfato de alumínio, o floculante tem como objetivo decantar a sujeira da piscina para uma aspiração eficaz. Diferente do sulfato de alumínio, o floculante não desequilibra o pH da água e por ser líquido contribui para a filtragem."
+            }
+        ],
+        "photos": [
+            {
+                "id": 1,
+                "path": "/assets/images/produtos.png",
+                "description": "produtos para limpeza de piscina",
+                "title": "Produtos"
+            },
+            {
+                "id": 2,
+                "path": "/assets/images/servicos/equipamento.png",
+                "description": "equipamentos de limpeza",
+                "title": "Equipamentos"
+            }
+        ]
+    }
+]

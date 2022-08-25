@@ -1,0 +1,71 @@
+.section {
+    padding: 70px;
+    border-top: 1px solid #253858;
+}
+
+.servico {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title, .nomeDoServico {
+    color: #253858;
+    font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 5px;
+}
+
+.resume {
+    max-width: 80%;
+    text-align: center;
+}
+
+.hr {
+    max-width: 80%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 10px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #03355E, #0784EB);
+    height: 5px;
+    opacity: 1;
+}
+
+.descricao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.listaServicos {
+    list-style: none;
+}
+
+.item:first-child {
+    margin-top: 0;
+}
+
+.item {
+    margin-top: 30px;
+}
+
+.slider {
+    padding: 50px;
+}
+
+@media screen and (max-width: 991px) {
+    .descricao {
+        flex-direction: column;
+    }
+
+    .slider {
+        padding: 10px;
+    }
+
+    .item:last-child {
+        margin-bottom: 30px;
+    }
+}

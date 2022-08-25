@@ -3,7 +3,6 @@ import styles from "./Conteudo.module.css";
 import Slider from "../../../components/Slider";
 
 export default function Conteudo() {
-
   return (
     <div className={styles.conteudo}>
       <div className={styles.texto}>
@@ -27,7 +26,7 @@ export default function Conteudo() {
         </div>
       </div>
       <div className={styles.slider}>
-        <Slider fotos={fotos}/>
+        <Slider fotos={fotos} />
       </div>
     </div>
   );
