@@ -59,7 +59,7 @@ export default function Header() {
               {/* exibe a ul do menu se o toggle for true ou a tela for larga o suficiente */}
               {rotas.map((rota, index) => (
                 <li key={index} className={styles.item}>
-                  <Link to={rota.to} className={styles.link}>
+                  <Link to={rota.to} className={styles.link} onClick={btnNavToggle}>
                     {rota.label}
                   </Link>
                 </li>

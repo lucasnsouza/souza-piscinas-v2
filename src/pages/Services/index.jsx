@@ -2,10 +2,22 @@ import ServicesDescription from "../../components/ServicesDescription";
 import styles from "./Services.module.css";
 import listaServicos from "../../data/description.json";
 import { HashLink } from "react-router-hash-link";
+import { Helmet } from "react-helmet";
 
 export default function Services() {
   return (
     <main>
+      <Helmet>
+        <title>Serviços | Souza Piscinas</title>
+        <meta
+          name='description'
+          content='Para que serve a aspiração da piscina? Precisa limpar a piscina toda semana? Um guia dos principais serviços e produtos para manutenção da piscina.'
+        />
+        <meta
+          name='keywords'
+          content='piscina, limpeza, manutenção, piscineiro, aspiração, limpeza das bordas, piscineiro duartina, piscineiro bauru, piscineiro em duartina, piscineiro em bauru, como aspirar piscina, limpeza piscina duartina bauru, piscina verde, piscina cloro, piscina sulfato de alumínio, areia piscina, troca de areia piscina'
+        />
+      </Helmet>
       <div className={styles.capa}>
         <div className={styles.conteudo}>
           <h1 className={styles.titulo}>

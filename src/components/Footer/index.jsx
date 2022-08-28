@@ -33,7 +33,7 @@ export default function Footer() {
       </div>
       <hr />
       <div className={styles.developer}>
-        <span>criado por <a href="https://www.linkedin.com/in/lucasnsouza" target="_blank" rel="noreferrer">lucas souza</a> | 2021-{anoAtual}</span>
+        <span>criado por <a href="https://github.com/lucasnsouza" target="_blank" rel="noreferrer">lucas souza</a> | 2021-{anoAtual}</span>
       </div>
     </div>
   );
