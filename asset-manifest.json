@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/souza-piscinas-v2/static/css/main.1e22a78d.css",
-    "main.js": "/souza-piscinas-v2/static/js/main.ac731a2c.js",
+    "main.css": "/souza-piscinas-v2/static/css/main.6f23031b.css",
+    "main.js": "/souza-piscinas-v2/static/js/main.283773e9.js",
     "static/media/capa-servicos.jpeg": "/souza-piscinas-v2/static/media/capa-servicos.3af839c1874d739b3695.jpeg",
     "static/media/sobre.png": "/souza-piscinas-v2/static/media/sobre.4a679efec9b83f1a236c.png",
     "static/media/capa.svg": "/souza-piscinas-v2/static/media/capa.acba0bd0c252df1a9747.svg",
     "index.html": "/souza-piscinas-v2/index.html",
-    "main.1e22a78d.css.map": "/souza-piscinas-v2/static/css/main.1e22a78d.css.map",
-    "main.ac731a2c.js.map": "/souza-piscinas-v2/static/js/main.ac731a2c.js.map"
+    "main.6f23031b.css.map": "/souza-piscinas-v2/static/css/main.6f23031b.css.map",
+    "main.283773e9.js.map": "/souza-piscinas-v2/static/js/main.283773e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e22a78d.css",
-    "static/js/main.ac731a2c.js"
+    "static/css/main.6f23031b.css",
+    "static/js/main.283773e9.js"
   ]
 }
