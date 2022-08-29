@@ -3,18 +3,21 @@
         "id": 1,
         "title": "Manutenção regular",
         "description": "Peneirando a psicina",
-        "path": "/assets/images/peneira.png"
+        "path": "/assets/images/peneira.png",
+        "pathP": "/assets/images/peneira-p.png"
     },
     {
         "id": 2,
         "title": "Manutenção periódica",
         "description": "Filtro desmontado",
-        "path": "/assets/images/filtro.png"
+        "path": "/assets/images/filtro.png",
+        "pathP": "/assets/images/filtro-p.png"
     },
     {
         "id": 3,
         "title": "Produtos e equipamentos",
         "description": "Produtos e equipamentos",
-        "path": "/assets/images/produtos.png"
+        "path": "/assets/images/produtos.png",
+        "pathP": "/assets/images/produtos-p.png"
     }
 ]

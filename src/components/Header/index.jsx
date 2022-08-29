@@ -7,15 +7,15 @@ export default function Header() {
   const rotas = [
     {
       label: "início",
-      to: "/souza-piscinas-v2",
+      to: "/",
     },
     {
       label: "serviços",
-      to: "/souza-piscinas-v2/servicos",
+      to: "/servicos",
     },
     {
       label: "sobre nós",
-      to: "/souza-piscinas-v2/sobre",
+      to: "/sobre",
     },
   ];
 
@@ -47,7 +47,7 @@ export default function Header() {
     <nav className={styles.navBar}>
       <div className={styles.menu}>
         <div className={styles.divBrandBtn}>
-          <Link to='/souza-piscinas-v2' className={styles.brand}>
+          <Link to='/' className={styles.brand}>
             <Brand />
           </Link>
           <button onClick={btnNavToggle} className={styles.btnNav}>

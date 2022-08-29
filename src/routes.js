@@ -11,10 +11,10 @@ export default function AppRouter() {
         <Router>
             <Header/>
             <Routes>
-                <Route path='/souza-piscinas-v2'>
+                <Route path='/'>
                 <Route index element={<Home/>}/>
-                <Route path='/souza-piscinas-v2/servicos' element={<Services/>}/>
-                <Route path='/souza-piscinas-v2/sobre' element={<AboutUs/>}/>
+                <Route path='/servicos' element={<Services/>}/>
+                <Route path='/sobre' element={<AboutUs/>}/>
                 </Route>
             </Routes>
             <WhatsappButton />

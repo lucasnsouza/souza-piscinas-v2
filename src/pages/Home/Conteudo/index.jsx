@@ -7,15 +7,15 @@ export default function Conteudo() {
   const rotasServicos = [
     {
       label: "Manutenção semanal",
-      path: "/souza-piscinas-v2/servicos#regular",
+      path: "/servicos#regular",
     },
     {
       label: "Manutenção peródica",
-      path: "/souza-piscinas-v2/servicos#extra",
+      path: "/servicos#extra",
     },
     {
       label: "Produtos e equipamentos",
-      path: "/souza-piscinas-v2/servicos#produtos",
+      path: "/servicos#produtos",
     },
   ];
   return (
@@ -32,10 +32,11 @@ export default function Conteudo() {
         <div className={styles.guia}>
           <p>O que você procura?</p>
           <ul className={styles.lista}>
-            {rotasServicos.map((rota) => (
-              <li className={styles.item}>
+            {rotasServicos.map((rota, index) => (
+              <li className={styles.item} key={index}>
+                {console.log(index)}
                 <HashLink smooth to={rota.path} className={styles.link}>
-                  {rota.label} <i class='fa-solid fa-square-arrow-up-right'></i>
+                  {rota.label} <i className='fa-solid fa-square-arrow-up-right'></i>
                 </HashLink>
               </li>
             ))}

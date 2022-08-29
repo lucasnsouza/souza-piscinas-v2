@@ -25,18 +25,21 @@
             {
                 "id": 1,
                 "path": "/assets/images/servicos/aspirando.png",
+                "pathP": "/assets/images/servicos/aspirando-p.png",
                 "description": "apirando piscina",
                 "title": "Aspiração"
             },
             {
                 "id": 2,
                 "path": "/assets/images/servicos/limpeza-bordas.png",
+                "pathP": "/assets/images/servicos/limpeza-bordas-p.png",
                 "description": "bordas da piscina",
                 "title": "Limpeza de Bordas"
             },
             {
                 "id": 3,
                 "path": "/assets/images/servicos/cristal.png",
+                "pathP": "/assets/images/servicos/cristal-p.png",
                 "description": "água cristalina",
                 "title": "Controle da água"
             }
@@ -68,18 +71,21 @@
             {
                 "id": 1,
                 "path": "/assets/images/servicos/areia.png",
+                "pathP": "/assets/images/servicos/areia-p.png",
                 "description": "filtro aberto",
                 "title": "Filtro de areia"
             },
             {
                 "id": 2,
                 "path": "/assets/images/servicos/choque.png",
+                "pathP": "/assets/images/servicos/choque-p.png",
                 "description": "água turva e verde",
                 "title": "Tratamento de choque"
             },
             {
                 "id": 3,
                 "path": "/assets/images/filtro.png",
+                "pathP": "/assets/images/filtro-p.png",
                 "description": "peças do filtro",
                 "title": "Peças"
             }
@@ -121,12 +127,14 @@
             {
                 "id": 1,
                 "path": "/assets/images/produtos.png",
+                "pathP": "/assets/images/produtos-p.png",
                 "description": "produtos para limpeza de piscina",
                 "title": "Produtos"
             },
             {
                 "id": 2,
                 "path": "/assets/images/servicos/equipamento.png",
+                "pathP": "/assets/images/servicos/equipamento-p.png",
                 "description": "equipamentos de limpeza",
                 "title": "Equipamentos"
             }

@@ -22,13 +22,30 @@ export default function Slider(props) {
 
   return (
     <div className={styles.slides}>
-      <img className={styles.foto} src={process.env.PUBLIC_URL + slide.path} alt={slide.description} />
+      <picture>
+        <source
+          media='(max-width: 700px)'
+          srcset={process.env.PUBLIC_URL + slide.pathP}
+          type='image/png'
+        />
+        <img
+          className={styles.foto}
+          src={process.env.PUBLIC_URL + slide.path}
+          alt={slide.description}
+        />
+      </picture>
       <div className={styles.controles}>
-        <SliderButton onclick={() => setContador(contador - 1)} function={'prev'}/>
+        <SliderButton
+          onclick={() => setContador(contador - 1)}
+          function={"prev"}
+        />
         <span className={styles.texto}>
           <strong>{slide.title}</strong>
         </span>
-        <SliderButton onclick={() => setContador(contador + 1)} function={'next'}/>
+        <SliderButton
+          onclick={() => setContador(contador + 1)}
+          function={"next"}
+        />
       </div>
     </div>
   );
